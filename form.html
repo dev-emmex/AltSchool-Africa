@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Application Form - ALT SCHOOL</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="form.html">Application Form</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>AltSchool Application Form</h1>
+        <p>Fill the form below.</p>
+    </header>
+
+
+
+    <div class="container">
+        <div class="image-section">
+            <img src="/Assets/Altschool registration logo.png" alt="Image Description" class="centered-image" width="360" height="370">
+            <h2>
+                Learn highly sought after skills without hassle.
+              </h2>
+        </div>
+
+        <section class="right-hand">
+            <div style="text-align: right; margin-right: 20px;">
+                <p>Already an AltSchooler? <a href="#">Sign in!</a></p>
+            </div>
+           <span>
+            <h4>Signup</h4>
+            <p>Take the next steps to apply at AltSchool Africa</p>
+           </span>
+            <div class="form-section">
+                <form action="/submit_application" method="post">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" placeholder="Enter first name" required>
+
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" placeholder="Enter last name" required> 
+
+                    <label for="gender">Gender</label>
+                    <input type="search" name="gender" id="gender" placeholder="Select Gender" list="genders" required>
+                    <datalist id="genders">
+                        <option value="Male">
+                        <option value="Female">
+                    </datalist>
+
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dateofbirth" id="dob" required> 
+
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email address" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" id="phone" placeholder="08154387000" required>
+
+                    <label for="country">Country</label>
+                    <input type="search" name="country" id="country" placeholder="Select your country" list="countries"
+                        required>
+                    <datalist id="countries">
+                        <option value="Alfganister">
+                        <option value="Albania">
+                        <option value="Algeria">
+                        <option value="Andorra">
+                        <option value="Angola">
+                        <option value="Antigua">
+                        <option value="Argentina">
+                        <option value="Armenia">
+                        <option value="Austria">
+                        <option value="Azerbaijan">
+                        <option value="Bahamas">
+                        <option value="Bahrain">
+                        <option value="Bangladesh">
+                        <option value="Barbados">
+                        <option value="Belgium">
+                        <option value="Belize">
+                        <option value="Benin">
+                        <option value="Bhutan">
+                        <option value="Bolivia">
+                        <option value="Bosnia Herzegovina">
+                        <option value="Botswana">
+                        <option value="Brazil">
+                        <option value="Brunei">
+                        <option value="Bulgaria">
+                        <option value="Burkina">
+                        <option value="Burundi">
+                        <option value="Cambodia">
+                        <option value="Cameroon">
+                        <option value="Canada">
+                        <option value="Cape Verde">
+                        <option value="Central Africa Rep">
+                        <option value="Chad">
+                        <option value="Chile">
+                        <option value="China">
+                        <option value="Colombia">
+                        <option value="Comoros">
+                        <option value="Costa Rica">
+                        <option value="Crotia">
+                        <option value="Cyprus">
+                        <option value="Czech Republic">
+                        <option value="Denmark">
+                        <option value="Djibouti">
+                        <option value="Dominica">
+                        <option value="Dominican Republic">
+                        <option value="East Timor">
+                        <option value="Ecuador">
+                        <option value="El Salvador">
+                        <option value="Equatorial Guinea">
+                        <option value="Eritrea">
+                        <option value="Estonia">
+                        <option value="Ethiopia">
+                        <option value="Fiji">
+                        <option value="Finland">
+                        <option value="France">
+                        <option value="Gabon">
+                        <option value="Gambia">
+                        <option value="Georgia">
+                        <option value="Germany">
+                        <option value="Ghana">
+                        <option value="Greece">
+                        <option value="Greneda">
+                        <option value="Guatemala">
+                        <option value="Guinea">
+                        <option value="Chad">
+
+                    </datalist>
+
+
+                    <label for="city">State/City of Residence</label>
+                    <input type="text" id="city" placeholder="Enter your state of residence" required> 
+
+                    <label for="aboutus">How did you hear about us?</label>
+                    <input type="search" name="aboutus" id="aboutus" list="channels" placeholder="Select channel"
+                        required>
+                    <datalist id="genders">
+                        <option value="Twitter">
+                        <option value="Facebook">
+                        <option value="LinkedIn">
+                        <option value="YouTube">
+                        <option value="Friend">
+                        <option value="WhatsApp">
+                        <option value="Instagram">
+                        <option value="Billboard">
+                        <option value="Sales officer">
+                        <option value="Others">
+                    </datalist> 
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter password" required>
+                    <label for="confirmpassword">Confirm Password</label>
+                    <input type="password" name="confirmpassword" id="confirmpassword"
+                        placeholder="Enter password again" required>
+                </form>
+            </div>
+
+            <p>By clicking continue, I agree to <a href="#">Terms of Use</a> and acknowledge that I have read the <a
+                    href="#">Privacy Policy.</a></p>
+
+            <button type="submit">Submit</button>
+        </section>
+    </div>
+    <footer>
+        <a href="tel:+2349030287841">Tel: 0800ALTSCHOOL</a>
+        <p>&copy; 2024 AltSchool Africa.  All rights reserved.</p>
+        
+    </footer>
+</body>
+
+</html>
